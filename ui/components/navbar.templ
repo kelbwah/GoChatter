@@ -1,0 +1,23 @@
+package components
+
+templ Navbar() {
+	<header class="sticky top-0 w-screen backdrop-filter backdrop-blur-lg bg-opacity-30 z-50 px-7 py-6">
+		<div class="max-w-screen-2xl flex justify-between items-center mx-auto">
+			<a href="/" class="text-2xl md:text-3xl cursor-pointer no-underline font-extrabold text-blue-500 hover:text-blue-400 active:text-blue-300 ease-in-out duration-200">GoChatter</a>
+			<nav>
+				<ul class="flex gap-3 font-semibold text-sm">
+					<li>
+						<a href="/dashboard">
+							<button class="bg-blue-500 hover:bg-blue-600 active:bg-blue-700 py-2.5 px-4 rounded-lg ease-in-out duration-200">Dashboard</button>
+						</a>
+					</li>
+					<li>
+						<a href="/login">
+							<button class="bg-blue-500 hover:bg-blue-600 active:bg-blue-700 py-2.5 px-4 rounded-lg ease-in-out duration-200">Sign up</button>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+}
